@@ -35,9 +35,9 @@ export default function Home() {
       <section className="py-16 px-6 bg-gray-200 dark:bg-gray-800">
         <h2 className="text-3xl font-semibold text-center mb-10">What Our Customers Say</h2>
         <div className="max-w-3xl mx-auto">
-          <blockquote className="text-center italic">
-            "The Smartwatch Pro X changed my fitness game! It's stylish and functional. Highly recommend!"
-          </blockquote>
+        <blockquote className="text-center italic">
+            &quot;The Smartwatch Pro X changed my fitness game! It&apos;s stylish and functional. Highly recommend!&quot;
+        </blockquote>
           <p className="text-right font-semibold mt-4">- Sarah Johnson</p>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="space-y-6">
           {[
             { question: "Is it compatible with iOS and Android?", answer: "Yes, it works with both iOS and Android." },
-            { question: "How long does the battery last?", answer: "Up to 7 days on a single charge." },
+            { question: "How long does the battery last?", answer: "Up to 7 days on a single charge." },
           ].map((faq, index) => (
             <div key={index} className="border-b pb-4">
               <h3 className="text-lg font-semibold">{faq.question}</h3>
